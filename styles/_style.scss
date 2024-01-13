@@ -1,0 +1,13 @@
+@use '_variables.scss' as *;
+
+header {
+  background-color: var(--color-bg-header);
+}
+
+nav {
+  background-color: var(--color-bg-nav);
+}
+
+main {
+  background-color: var(--color-bg-main);
+}
