@@ -1,1 +1,47 @@
-/*# sourceMappingURL=main.css.map */
+:root {
+  --color-bg-header: #FFF;
+  --color-bg-nav: #afafaf;
+  --color-bg-main: #e4e4e4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*::after, *::before {
+  box-sizing: inherit;
+}
+
+body,
+h1, h2, h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.content {
+  display: grid;
+  grid-template: 1fr 4fr/1fr 5fr;
+}
+
+nav {
+  grid-row: span 2;
+}
+
+header {
+  background-color: var(--color-bg-header);
+}
+
+nav {
+  background-color: var(--color-bg-nav);
+}
+
+main {
+  background-color: var(--color-bg-main);
+}/*# sourceMappingURL=main.css.map */
