@@ -19,3 +19,13 @@ main {
 .project-overview {
   background-color: #fff;
 }
+
+.sidebar {
+  color: var(--color-sidebar);
+  font-family: 'Wellfleet';
+  letter-spacing: .1em;
+  svg {
+    fill: var(--color-sidebar)
+  }
+}
+
