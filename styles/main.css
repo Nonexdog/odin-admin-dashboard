@@ -34,6 +34,13 @@ nav {
   grid-row: span 2;
 }
 
+.projects {
+  display: grid;
+  grid-template: repeat(3, 1fr)/repeat(2, 1fr);
+  padding: 1em;
+  gap: 1em;
+}
+
 header {
   background-color: var(--color-bg-header);
 }
@@ -44,4 +51,9 @@ nav {
 
 main {
   background-color: var(--color-bg-main);
+}
+
+.project-overview {
+  background-color: #fff;
+  padding: 1rem;
 }/*# sourceMappingURL=main.css.map */
