@@ -3,6 +3,16 @@
   grid-template: 1fr 4fr / 1fr 5fr;
 }
 
+.dashboard {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.interesting {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 nav {
   grid-row: span 2;
 }
