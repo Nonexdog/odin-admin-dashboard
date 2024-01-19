@@ -1,9 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Wellfleet&display=swap");
 :root {
   --color-bg-header: #FFF;
   --color-bg-nav: #473a0c;
   --color-bg-main: #e4e4e4;
   --color-header: #fff;
-  --color-nav: #fff;
+  --color-sidebar: #c9e239;
   --color-main: #fff;
 }
 
@@ -28,9 +29,29 @@ input {
           appearance: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 .content {
   display: grid;
   grid-template: 1fr 4fr/1fr 5fr;
+}
+
+.sidebar {
+  display: grid;
+  grid-auto-rows: 2rem;
+  gap: 1rem;
+}
+.sidebar svg {
+  width: 2rem;
+}
+
+.outlink,
+.dash-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .dashboard {
@@ -72,4 +93,13 @@ main {
 
 .project-overview {
   background-color: #fff;
+}
+
+.sidebar {
+  color: var(--color-sidebar);
+  font-family: "Wellfleet";
+  letter-spacing: 0.1em;
+}
+.sidebar svg {
+  fill: var(--color-sidebar);
 }/*# sourceMappingURL=main.css.map */
