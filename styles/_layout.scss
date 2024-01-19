@@ -6,3 +6,10 @@
 nav {
   grid-row: span 2;
 }
+
+.projects {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+  padding: 1em;
+  gap: 1em;
+}
