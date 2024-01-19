@@ -1,7 +1,10 @@
 :root {
   --color-bg-header: #FFF;
-  --color-bg-nav: #afafaf;
+  --color-bg-nav: #473a0c;
   --color-bg-main: #e4e4e4;
+  --color-header: #fff;
+  --color-nav: #fff;
+  --color-main: #fff;
 }
 
 * {
@@ -30,6 +33,16 @@ input {
   grid-template: 1fr 4fr/1fr 5fr;
 }
 
+.dashboard {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.interesting {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 nav {
   grid-row: span 2;
 }
@@ -53,7 +66,10 @@ main {
   background-color: var(--color-bg-main);
 }
 
+.pad {
+  padding: 1rem;
+}
+
 .project-overview {
   background-color: #fff;
-  padding: 1rem;
 }/*# sourceMappingURL=main.css.map */
