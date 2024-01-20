@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Wellfleet&display=swap");
 :root {
-  --color-bg-header: #FFF;
+  --color-bg-header: #ff5d5d;
   --color-bg-nav: #473a0c;
   --color-bg-main: #e4e4e4;
-  --color-header: #fff;
+  --color-bg-search: #e7cccc;
+  --color-text-darkred: #160609;
   --color-sidebar: #c9e239;
   --color-main: #fff;
+  --color-button-bg: #200906;
+  --color-button-text: #ffb0b0;
 }
 
 * {
@@ -23,7 +26,8 @@ p {
   margin: 0;
 }
 
-input {
+input,
+button {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -38,13 +42,14 @@ img {
   grid-template: 1fr 4fr/1fr 5fr;
 }
 
+svg {
+  width: 2rem;
+}
+
 .sidebar {
   display: grid;
   grid-auto-rows: 2rem;
   gap: 1rem;
-}
-.sidebar svg {
-  width: 2rem;
 }
 
 .outlink,
@@ -52,6 +57,49 @@ img {
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+.header-dash {
+  display: grid;
+  grid-template: 1fr 1fr/2fr 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+.header-dash input {
+  width: 80%;
+}
+.header-dash > div:nth-child(even) {
+  justify-self: end;
+}
+
+.header-name {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.header-name img {
+  height: 4rem;
+  width: 4rem;
+}
+
+.search-bar form {
+  display: flex;
+  align-content: center;
+  gap: 1rem;
+}
+
+.search-icon {
+  width: 2rem;
+}
+
+.notif-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.notif-bar img {
+  height: 3rem;
+  width: 3rem;
 }
 
 .dashboard {
@@ -75,8 +123,28 @@ nav {
   gap: 1em;
 }
 
+button {
+  padding: 0.5em 3em;
+  border: none;
+  border-radius: 2em;
+  background-color: var(--color-button-bg);
+  color: var(--color-button-text);
+  font-family: "Wellfleet";
+}
+
+input {
+  border: none;
+  border-radius: 2em;
+  background-color: var(--color-bg-search);
+  padding: 0.5em 1em;
+}
+
 header {
   background-color: var(--color-bg-header);
+  color: var(--color-text-darkred);
+}
+header svg {
+  fill: var(--color-text-darkred);
 }
 
 nav {
@@ -102,4 +170,11 @@ main {
 }
 .sidebar svg {
   fill: var(--color-sidebar);
+}
+
+.profile-picture {
+  -webkit-clip-path: circle();
+          clip-path: circle();
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=main.css.map */
