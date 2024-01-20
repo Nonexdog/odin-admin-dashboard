@@ -1,5 +1,9 @@
 @use '_variables.scss' as *;
 
+body {
+  font-family: 'Josefin Sans';
+}
+
 button {
   padding: .5em 3em;
   border: none;

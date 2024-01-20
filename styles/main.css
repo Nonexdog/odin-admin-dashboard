@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Wellfleet&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Wellfleet&display=swap");
 :root {
   --color-bg-header: #ff5d5d;
   --color-bg-nav: #473a0c;
@@ -153,6 +153,10 @@ nav {
 .trending-user img {
   width: 3rem;
   height: 3rem;
+}
+
+body {
+  font-family: "Josefin Sans";
 }
 
 button {
