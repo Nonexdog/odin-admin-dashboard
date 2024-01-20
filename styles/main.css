@@ -2,11 +2,12 @@
 :root {
   --color-bg-header: #ff5d5d;
   --color-bg-nav: #473a0c;
-  --color-bg-main: #e4e4e4;
+  --color-bg-main: #e9e8c0;
   --color-bg-search: #e7cccc;
+  --color-bg-dashbox: #fafce6;
   --color-text-darkred: #160609;
   --color-sidebar: #c9e239;
-  --color-main: #fff;
+  --color-main: #ececc7;
   --color-button-bg: #200906;
   --color-button-text: #ffb0b0;
 }
@@ -107,6 +108,10 @@ svg {
   grid-template-columns: 3fr 1fr;
 }
 
+.dashbox {
+  padding: 1rem;
+}
+
 .interesting {
   display: flex;
   flex-direction: column;
@@ -161,10 +166,6 @@ main {
   padding: 1rem;
 }
 
-.project-overview {
-  background-color: #fff;
-}
-
 .sidebar {
   color: var(--color-sidebar);
   font-family: "Wellfleet";
@@ -179,6 +180,20 @@ main {
           clip-path: circle();
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.dashboard {
+  background-color: var(--color-bg-main);
+}
+
+.dashbox {
+  background-color: var(--color-bg-dashbox);
+  border-radius: 1em;
+}
+
+.project-overview {
+  border-left: 1.2rem var(--color-bg-nav) solid;
+  padding: 2em;
 }
 
 h1, h2, h3,
