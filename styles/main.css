@@ -136,6 +136,19 @@ nav {
   gap: 1em;
 }
 
+.project-overview {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-icons {
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .project-overview h3 {
   margin-bottom: 1rem;
 }
