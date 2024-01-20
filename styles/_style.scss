@@ -1,7 +1,27 @@
 @use '_variables.scss' as *;
 
+button {
+  padding: .5em 3em;
+  border: none;
+  border-radius: 2em;
+  background-color: var(--color-button-bg);
+  color: var(--color-button-text);
+  font-family: 'Wellfleet';
+}
+
+input {
+  border: none;
+  border-radius: 2em;
+  background-color: var(--color-bg-search);
+  padding: .5em 1em;
+}
+
 header {
   background-color: var(--color-bg-header);
+  color: var(--color-text-darkred);
+  svg {
+    fill: var(--color-text-darkred);
+  }
 }
 
 nav {
@@ -27,5 +47,10 @@ main {
   svg {
     fill: var(--color-sidebar)
   }
+}
+
+.profile-picture {
+  clip-path: circle();
+  object-fit: cover;
 }
 
