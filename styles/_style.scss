@@ -36,10 +36,6 @@ main {
   padding: 1rem;
 }
 
-.project-overview {
-  background-color: #fff;
-}
-
 .sidebar {
   color: var(--color-sidebar);
   font-family: 'Wellfleet';
@@ -52,6 +48,19 @@ main {
 .profile-picture {
   clip-path: circle();
   object-fit: cover;
+}
+
+.dashboard {
+  background-color: var(--color-bg-main);
+}
+
+.dashbox {
+  background-color: var(--color-bg-dashbox);
+  border-radius: 1em;
+}
+
+.project-overview {
+  padding: 2em;
 }
 
 h1,h2,h3,
