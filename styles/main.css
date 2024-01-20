@@ -177,4 +177,9 @@ main {
           clip-path: circle();
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+h1, h2, h3,
+.header-dash p {
+  font-family: "Wellfleet";
 }/*# sourceMappingURL=main.css.map */
