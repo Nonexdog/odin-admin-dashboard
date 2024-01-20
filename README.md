@@ -8,7 +8,10 @@ In this project, I will apply what I have learnt in the grid section of the inte
   - Make the design responsive by making use of fractional units and other neat functions
   - Give it my own awesome spin as per usual!!
 
+### Fonts 
+
   - [Wellfleet font](https://fonts.google.com/specimen/Wellfleet) by Riccardo De Franceschi
+  - [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans) by Santiago Orozco
 
 ### Images
 
